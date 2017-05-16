@@ -24,6 +24,6 @@
 >>>>>>> origin/master
 
 ### 键盘示意图：
-11
+![image](https://github.com/dongdong3344/CustomKeyBoard/blob/master/%E4%B8%8B%E8%BD%BD.gif)
 
 
