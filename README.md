@@ -15,13 +15,14 @@
 
 ◉textField placeholder左右抖动
 
-<<<<<<< HEAD
 ◉点击键盘按钮，文字放大显示动画
-=======
+
 ◉按下字母，字符按键时放大显示文字
 
 ◉点击键盘按钮，放大显示动画
->>>>>>> origin/master
+
+### 简书地址：
+[Title]（http://www.jianshu.com/p/df4d57bcd2b8）
 
 ### 键盘示意图：
 ![image](https://github.com/dongdong3344/CustomKeyBoard/blob/master/%E4%B8%8B%E8%BD%BD.gif)
