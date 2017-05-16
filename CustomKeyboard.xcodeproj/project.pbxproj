@@ -1,0 +1,570 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C775B0881EC2DF42000E0B30 /* LDDSheetController.m in Sources */ = {isa = PBXBuildFile; fileRef = C775B0861EC2DF42000E0B30 /* LDDSheetController.m */; };
+		C775B0891EC2DF42000E0B30 /* LDDSheetController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C775B0871EC2DF42000E0B30 /* LDDSheetController.xib */; };
+		C7C2D9EB1EC549CB009FE192 /* TYAlertController+TransitionAnimate.m in Sources */ = {isa = PBXBuildFile; fileRef = C7C2D9D81EC549CB009FE192 /* TYAlertController+TransitionAnimate.m */; };
+		C7C2D9EC1EC549CB009FE192 /* TYAlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7C2D9DA1EC549CB009FE192 /* TYAlertController.m */; };
+		C7C2D9ED1EC549CB009FE192 /* TYAlertDropDownAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = C7C2D9DC1EC549CB009FE192 /* TYAlertDropDownAnimation.m */; };
+		C7C2D9EE1EC549CB009FE192 /* TYAlertFadeAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = C7C2D9DE1EC549CB009FE192 /* TYAlertFadeAnimation.m */; };
+		C7C2D9EF1EC549CB009FE192 /* TYAlertScaleFadeAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = C7C2D9E01EC549CB009FE192 /* TYAlertScaleFadeAnimation.m */; };
+		C7C2D9F01EC549CB009FE192 /* TYAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = C7C2D9E21EC549CB009FE192 /* TYAlertView.m */; };
+		C7C2D9F11EC549CB009FE192 /* TYBaseAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = C7C2D9E41EC549CB009FE192 /* TYBaseAnimation.m */; };
+		C7C2D9F21EC549CB009FE192 /* TYShowAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = C7C2D9E61EC549CB009FE192 /* TYShowAlertView.m */; };
+		C7C2D9F31EC549CB009FE192 /* UIView+TYAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = C7C2D9E81EC549CB009FE192 /* UIView+TYAlertView.m */; };
+		C7C2D9F41EC549CB009FE192 /* UIView+TYAutoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = C7C2D9EA1EC549CB009FE192 /* UIView+TYAutoLayout.m */; };
+		C7C2D9F71EC54A7F009FE192 /* LDDAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = C7C2D9F61EC54A7F009FE192 /* LDDAlertView.m */; };
+		C7C2D9F91EC54A8B009FE192 /* LDDAlertView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C7C2D9F81EC54A8B009FE192 /* LDDAlertView.xib */; };
+		C7C2DA211EC5BDF8009FE192 /* LDDKeyboardView.m in Sources */ = {isa = PBXBuildFile; fileRef = C7C2DA201EC5BDF8009FE192 /* LDDKeyboardView.m */; };
+		C7C2DA231EC5BE13009FE192 /* LDDKeyboardView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C7C2DA221EC5BE13009FE192 /* LDDKeyboardView.xib */; };
+		C7C2DA2F1EC68B39009FE192 /* LDDTextFieldLeftView.m in Sources */ = {isa = PBXBuildFile; fileRef = C7C2DA2E1EC68B39009FE192 /* LDDTextFieldLeftView.m */; };
+		C7C2DA311EC6F75B009FE192 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7C2DA301EC6F75B009FE192 /* AudioToolbox.framework */; };
+		C7C2DA581EC7F18E009FE192 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = C7C2DA571EC7F18E009FE192 /* UIView+Frame.m */; };
+		C7C2DA841EC84CCF009FE192 /* CYRKeyboardButton.m in Sources */ = {isa = PBXBuildFile; fileRef = C7C2DA811EC84CCF009FE192 /* CYRKeyboardButton.m */; };
+		C7C2DA851EC84CCF009FE192 /* CYRKeyboardButtonView.m in Sources */ = {isa = PBXBuildFile; fileRef = C7C2DA831EC84CCF009FE192 /* CYRKeyboardButtonView.m */; };
+		C7C2DA881EC84E4B009FE192 /* TurtleBezierPath.m in Sources */ = {isa = PBXBuildFile; fileRef = C7C2DA871EC84E4B009FE192 /* TurtleBezierPath.m */; };
+		C7D868DF1EC1542700BADD6D /* LDDScanImage.m in Sources */ = {isa = PBXBuildFile; fileRef = C7D868DE1EC1542700BADD6D /* LDDScanImage.m */; };
+		C7D868E21EC1A30400BADD6D /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7D868E11EC1A30400BADD6D /* MobileCoreServices.framework */; };
+		C7D868E51EC1A78700BADD6D /* LDDSelectPhotoPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = C7D868E41EC1A78700BADD6D /* LDDSelectPhotoPicker.m */; };
+		C7D868E81EC1F63B00BADD6D /* LDDHeadPicture.m in Sources */ = {isa = PBXBuildFile; fileRef = C7D868E71EC1F63B00BADD6D /* LDDHeadPicture.m */; };
+		C7EA91B71EC44C5A00005AAF /* LDDHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = C7EA91B61EC44C5A00005AAF /* LDDHeadView.m */; };
+		C7EA91B91EC44C6900005AAF /* LDDHeadView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C7EA91B81EC44C6900005AAF /* LDDHeadView.xib */; };
+		C7F07EF51EBAF9AE0037C60B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C7F07EF41EBAF9AE0037C60B /* main.m */; };
+		C7F07EF81EBAF9AE0037C60B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C7F07EF71EBAF9AE0037C60B /* AppDelegate.m */; };
+		C7F07EFB1EBAF9AE0037C60B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7F07EFA1EBAF9AE0037C60B /* ViewController.m */; };
+		C7F07F001EBAF9AE0037C60B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7F07EFF1EBAF9AE0037C60B /* Assets.xcassets */; };
+		C7F07F031EBAF9AE0037C60B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7F07F011EBAF9AE0037C60B /* LaunchScreen.storyboard */; };
+		C7F07F0B1EBAFB000037C60B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7F07F0A1EBAFB000037C60B /* Main.storyboard */; };
+		C7F07F241EBB626A0037C60B /* LDDKeyChain.m in Sources */ = {isa = PBXBuildFile; fileRef = C7F07F231EBB626A0037C60B /* LDDKeyChain.m */; };
+		C7F07F2E1EBDF1640037C60B /* UIView+Toast.m in Sources */ = {isa = PBXBuildFile; fileRef = C7F07F2D1EBDF1640037C60B /* UIView+Toast.m */; };
+		C7F07F311EBDF20D0037C60B /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = C7F07F301EBDF20D0037C60B /* MBProgressHUD.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C775B0831EC2D83A000E0B30 /* OpenSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Regular.ttf"; sourceTree = "<group>"; };
+		C775B0841EC2D846000E0B30 /* proximanova-regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "proximanova-regular.otf"; sourceTree = "<group>"; };
+		C775B0851EC2DF42000E0B30 /* LDDSheetController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDDSheetController.h; sourceTree = "<group>"; };
+		C775B0861EC2DF42000E0B30 /* LDDSheetController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDDSheetController.m; sourceTree = "<group>"; };
+		C775B0871EC2DF42000E0B30 /* LDDSheetController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LDDSheetController.xib; sourceTree = "<group>"; };
+		C7C2D9D81EC549CB009FE192 /* TYAlertController+TransitionAnimate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "TYAlertController+TransitionAnimate.m"; sourceTree = "<group>"; };
+		C7C2D9D91EC549CB009FE192 /* TYAlertController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYAlertController.h; sourceTree = "<group>"; };
+		C7C2D9DA1EC549CB009FE192 /* TYAlertController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYAlertController.m; sourceTree = "<group>"; };
+		C7C2D9DB1EC549CB009FE192 /* TYAlertDropDownAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYAlertDropDownAnimation.h; sourceTree = "<group>"; };
+		C7C2D9DC1EC549CB009FE192 /* TYAlertDropDownAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYAlertDropDownAnimation.m; sourceTree = "<group>"; };
+		C7C2D9DD1EC549CB009FE192 /* TYAlertFadeAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYAlertFadeAnimation.h; sourceTree = "<group>"; };
+		C7C2D9DE1EC549CB009FE192 /* TYAlertFadeAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYAlertFadeAnimation.m; sourceTree = "<group>"; };
+		C7C2D9DF1EC549CB009FE192 /* TYAlertScaleFadeAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYAlertScaleFadeAnimation.h; sourceTree = "<group>"; };
+		C7C2D9E01EC549CB009FE192 /* TYAlertScaleFadeAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYAlertScaleFadeAnimation.m; sourceTree = "<group>"; };
+		C7C2D9E11EC549CB009FE192 /* TYAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYAlertView.h; sourceTree = "<group>"; };
+		C7C2D9E21EC549CB009FE192 /* TYAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYAlertView.m; sourceTree = "<group>"; };
+		C7C2D9E31EC549CB009FE192 /* TYBaseAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYBaseAnimation.h; sourceTree = "<group>"; };
+		C7C2D9E41EC549CB009FE192 /* TYBaseAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYBaseAnimation.m; sourceTree = "<group>"; };
+		C7C2D9E51EC549CB009FE192 /* TYShowAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYShowAlertView.h; sourceTree = "<group>"; };
+		C7C2D9E61EC549CB009FE192 /* TYShowAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYShowAlertView.m; sourceTree = "<group>"; };
+		C7C2D9E71EC549CB009FE192 /* UIView+TYAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+TYAlertView.h"; sourceTree = "<group>"; };
+		C7C2D9E81EC549CB009FE192 /* UIView+TYAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+TYAlertView.m"; sourceTree = "<group>"; };
+		C7C2D9E91EC549CB009FE192 /* UIView+TYAutoLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+TYAutoLayout.h"; sourceTree = "<group>"; };
+		C7C2D9EA1EC549CB009FE192 /* UIView+TYAutoLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+TYAutoLayout.m"; sourceTree = "<group>"; };
+		C7C2D9F51EC54A7F009FE192 /* LDDAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDDAlertView.h; sourceTree = "<group>"; };
+		C7C2D9F61EC54A7F009FE192 /* LDDAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDDAlertView.m; sourceTree = "<group>"; };
+		C7C2D9F81EC54A8B009FE192 /* LDDAlertView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LDDAlertView.xib; sourceTree = "<group>"; };
+		C7C2DA1F1EC5BDF8009FE192 /* LDDKeyboardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDDKeyboardView.h; sourceTree = "<group>"; };
+		C7C2DA201EC5BDF8009FE192 /* LDDKeyboardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDDKeyboardView.m; sourceTree = "<group>"; };
+		C7C2DA221EC5BE13009FE192 /* LDDKeyboardView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LDDKeyboardView.xib; sourceTree = "<group>"; };
+		C7C2DA2D1EC68B39009FE192 /* LDDTextFieldLeftView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDDTextFieldLeftView.h; sourceTree = "<group>"; };
+		C7C2DA2E1EC68B39009FE192 /* LDDTextFieldLeftView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDDTextFieldLeftView.m; sourceTree = "<group>"; };
+		C7C2DA301EC6F75B009FE192 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		C7C2DA561EC7F18E009FE192 /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		C7C2DA571EC7F18E009FE192 /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		C7C2DA801EC84CCF009FE192 /* CYRKeyboardButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYRKeyboardButton.h; sourceTree = "<group>"; };
+		C7C2DA811EC84CCF009FE192 /* CYRKeyboardButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYRKeyboardButton.m; sourceTree = "<group>"; };
+		C7C2DA821EC84CCF009FE192 /* CYRKeyboardButtonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYRKeyboardButtonView.h; sourceTree = "<group>"; };
+		C7C2DA831EC84CCF009FE192 /* CYRKeyboardButtonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYRKeyboardButtonView.m; sourceTree = "<group>"; };
+		C7C2DA861EC84E4B009FE192 /* TurtleBezierPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TurtleBezierPath.h; sourceTree = "<group>"; };
+		C7C2DA871EC84E4B009FE192 /* TurtleBezierPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TurtleBezierPath.m; sourceTree = "<group>"; };
+		C7D868DD1EC1542700BADD6D /* LDDScanImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDDScanImage.h; sourceTree = "<group>"; };
+		C7D868DE1EC1542700BADD6D /* LDDScanImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDDScanImage.m; sourceTree = "<group>"; };
+		C7D868E11EC1A30400BADD6D /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		C7D868E31EC1A78700BADD6D /* LDDSelectPhotoPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDDSelectPhotoPicker.h; sourceTree = "<group>"; };
+		C7D868E41EC1A78700BADD6D /* LDDSelectPhotoPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDDSelectPhotoPicker.m; sourceTree = "<group>"; };
+		C7D868E61EC1F63B00BADD6D /* LDDHeadPicture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDDHeadPicture.h; sourceTree = "<group>"; };
+		C7D868E71EC1F63B00BADD6D /* LDDHeadPicture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDDHeadPicture.m; sourceTree = "<group>"; };
+		C7EA91B51EC44C5A00005AAF /* LDDHeadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDDHeadView.h; sourceTree = "<group>"; };
+		C7EA91B61EC44C5A00005AAF /* LDDHeadView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDDHeadView.m; sourceTree = "<group>"; };
+		C7EA91B81EC44C6900005AAF /* LDDHeadView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LDDHeadView.xib; sourceTree = "<group>"; };
+		C7F07EF01EBAF9AE0037C60B /* Custom Keyboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Custom Keyboard.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7F07EF41EBAF9AE0037C60B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C7F07EF61EBAF9AE0037C60B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C7F07EF71EBAF9AE0037C60B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C7F07EF91EBAF9AE0037C60B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C7F07EFA1EBAF9AE0037C60B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C7F07EFF1EBAF9AE0037C60B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C7F07F021EBAF9AE0037C60B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C7F07F041EBAF9AE0037C60B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7F07F0A1EBAFB000037C60B /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		C7F07F221EBB626A0037C60B /* LDDKeyChain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDDKeyChain.h; sourceTree = "<group>"; };
+		C7F07F231EBB626A0037C60B /* LDDKeyChain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDDKeyChain.m; sourceTree = "<group>"; };
+		C7F07F251EBB65220037C60B /* ICBCKeyboard.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ICBCKeyboard.entitlements; sourceTree = "<group>"; };
+		C7F07F2C1EBDF1640037C60B /* UIView+Toast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Toast.h"; sourceTree = "<group>"; };
+		C7F07F2D1EBDF1640037C60B /* UIView+Toast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Toast.m"; sourceTree = "<group>"; };
+		C7F07F2F1EBDF20D0037C60B /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		C7F07F301EBDF20D0037C60B /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C7F07EED1EBAF9AE0037C60B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7C2DA311EC6F75B009FE192 /* AudioToolbox.framework in Frameworks */,
+				C7D868E21EC1A30400BADD6D /* MobileCoreServices.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C775B08A1EC2FBBF000E0B30 /* SelectPhoto */ = {
+			isa = PBXGroup;
+			children = (
+				C7D868E61EC1F63B00BADD6D /* LDDHeadPicture.h */,
+				C7D868E71EC1F63B00BADD6D /* LDDHeadPicture.m */,
+				C7D868E31EC1A78700BADD6D /* LDDSelectPhotoPicker.h */,
+				C7D868E41EC1A78700BADD6D /* LDDSelectPhotoPicker.m */,
+				C7D868DD1EC1542700BADD6D /* LDDScanImage.h */,
+				C7D868DE1EC1542700BADD6D /* LDDScanImage.m */,
+				C775B0851EC2DF42000E0B30 /* LDDSheetController.h */,
+				C775B0861EC2DF42000E0B30 /* LDDSheetController.m */,
+				C775B0871EC2DF42000E0B30 /* LDDSheetController.xib */,
+			);
+			name = SelectPhoto;
+			sourceTree = "<group>";
+		};
+		C7C2D9D71EC549CB009FE192 /* TYAlertController */ = {
+			isa = PBXGroup;
+			children = (
+				C7C2D9D81EC549CB009FE192 /* TYAlertController+TransitionAnimate.m */,
+				C7C2D9D91EC549CB009FE192 /* TYAlertController.h */,
+				C7C2D9DA1EC549CB009FE192 /* TYAlertController.m */,
+				C7C2D9DB1EC549CB009FE192 /* TYAlertDropDownAnimation.h */,
+				C7C2D9DC1EC549CB009FE192 /* TYAlertDropDownAnimation.m */,
+				C7C2D9DD1EC549CB009FE192 /* TYAlertFadeAnimation.h */,
+				C7C2D9DE1EC549CB009FE192 /* TYAlertFadeAnimation.m */,
+				C7C2D9DF1EC549CB009FE192 /* TYAlertScaleFadeAnimation.h */,
+				C7C2D9E01EC549CB009FE192 /* TYAlertScaleFadeAnimation.m */,
+				C7C2D9E11EC549CB009FE192 /* TYAlertView.h */,
+				C7C2D9E21EC549CB009FE192 /* TYAlertView.m */,
+				C7C2D9E31EC549CB009FE192 /* TYBaseAnimation.h */,
+				C7C2D9E41EC549CB009FE192 /* TYBaseAnimation.m */,
+				C7C2D9E51EC549CB009FE192 /* TYShowAlertView.h */,
+				C7C2D9E61EC549CB009FE192 /* TYShowAlertView.m */,
+				C7C2D9E71EC549CB009FE192 /* UIView+TYAlertView.h */,
+				C7C2D9E81EC549CB009FE192 /* UIView+TYAlertView.m */,
+				C7C2D9E91EC549CB009FE192 /* UIView+TYAutoLayout.h */,
+				C7C2D9EA1EC549CB009FE192 /* UIView+TYAutoLayout.m */,
+			);
+			path = TYAlertController;
+			sourceTree = "<group>";
+		};
+		C7C2DA551EC7EC33009FE192 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				C7F07F2C1EBDF1640037C60B /* UIView+Toast.h */,
+				C7F07F2D1EBDF1640037C60B /* UIView+Toast.m */,
+				C7C2DA561EC7F18E009FE192 /* UIView+Frame.h */,
+				C7C2DA571EC7F18E009FE192 /* UIView+Frame.m */,
+			);
+			name = Category;
+			sourceTree = "<group>";
+		};
+		C7C2DA7F1EC84CCF009FE192 /* CYRKeyboardButton */ = {
+			isa = PBXGroup;
+			children = (
+				C7C2DA861EC84E4B009FE192 /* TurtleBezierPath.h */,
+				C7C2DA871EC84E4B009FE192 /* TurtleBezierPath.m */,
+				C7C2DA801EC84CCF009FE192 /* CYRKeyboardButton.h */,
+				C7C2DA811EC84CCF009FE192 /* CYRKeyboardButton.m */,
+				C7C2DA821EC84CCF009FE192 /* CYRKeyboardButtonView.h */,
+				C7C2DA831EC84CCF009FE192 /* CYRKeyboardButtonView.m */,
+			);
+			path = CYRKeyboardButton;
+			sourceTree = "<group>";
+		};
+		C7D868E01EC1A30400BADD6D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C7C2DA301EC6F75B009FE192 /* AudioToolbox.framework */,
+				C7D868E11EC1A30400BADD6D /* MobileCoreServices.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C7F07EE71EBAF9AE0037C60B = {
+			isa = PBXGroup;
+			children = (
+				C7F07EF21EBAF9AE0037C60B /* ICBCKeyboard */,
+				C7F07EF11EBAF9AE0037C60B /* Products */,
+				C7D868E01EC1A30400BADD6D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C7F07EF11EBAF9AE0037C60B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C7F07EF01EBAF9AE0037C60B /* Custom Keyboard.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C7F07EF21EBAF9AE0037C60B /* ICBCKeyboard */ = {
+			isa = PBXGroup;
+			children = (
+				C7F07F251EBB65220037C60B /* ICBCKeyboard.entitlements */,
+				C7F07F0F1EBB09160037C60B /* Helper */,
+				C7F07F0E1EBB090F0037C60B /* Model */,
+				C7F07F0D1EBB09040037C60B /* View */,
+				C7F07F0C1EBB08F70037C60B /* Controller */,
+				C7F07F0A1EBAFB000037C60B /* Main.storyboard */,
+				C7F07F011EBAF9AE0037C60B /* LaunchScreen.storyboard */,
+				C7F07EF31EBAF9AE0037C60B /* Supporting Files */,
+			);
+			path = ICBCKeyboard;
+			sourceTree = "<group>";
+		};
+		C7F07EF31EBAF9AE0037C60B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C7F07EFF1EBAF9AE0037C60B /* Assets.xcassets */,
+				C775B0841EC2D846000E0B30 /* proximanova-regular.otf */,
+				C775B0831EC2D83A000E0B30 /* OpenSans-Regular.ttf */,
+				C7F07EF61EBAF9AE0037C60B /* AppDelegate.h */,
+				C7F07EF71EBAF9AE0037C60B /* AppDelegate.m */,
+				C7F07F041EBAF9AE0037C60B /* Info.plist */,
+				C7F07EF41EBAF9AE0037C60B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C7F07F0C1EBB08F70037C60B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C7F07EF91EBAF9AE0037C60B /* ViewController.h */,
+				C7F07EFA1EBAF9AE0037C60B /* ViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		C7F07F0D1EBB09040037C60B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C7EA91B51EC44C5A00005AAF /* LDDHeadView.h */,
+				C7EA91B61EC44C5A00005AAF /* LDDHeadView.m */,
+				C7EA91B81EC44C6900005AAF /* LDDHeadView.xib */,
+				C7C2D9F51EC54A7F009FE192 /* LDDAlertView.h */,
+				C7C2D9F61EC54A7F009FE192 /* LDDAlertView.m */,
+				C7C2D9F81EC54A8B009FE192 /* LDDAlertView.xib */,
+				C7C2DA1F1EC5BDF8009FE192 /* LDDKeyboardView.h */,
+				C7C2DA201EC5BDF8009FE192 /* LDDKeyboardView.m */,
+				C7C2DA221EC5BE13009FE192 /* LDDKeyboardView.xib */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		C7F07F0E1EBB090F0037C60B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		C7F07F0F1EBB09160037C60B /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				C7C2DA551EC7EC33009FE192 /* Category */,
+				C7C2DA7F1EC84CCF009FE192 /* CYRKeyboardButton */,
+				C7C2D9D71EC549CB009FE192 /* TYAlertController */,
+				C775B08A1EC2FBBF000E0B30 /* SelectPhoto */,
+				C7F07F2F1EBDF20D0037C60B /* MBProgressHUD.h */,
+				C7F07F301EBDF20D0037C60B /* MBProgressHUD.m */,
+				C7F07F221EBB626A0037C60B /* LDDKeyChain.h */,
+				C7F07F231EBB626A0037C60B /* LDDKeyChain.m */,
+				C7C2DA2D1EC68B39009FE192 /* LDDTextFieldLeftView.h */,
+				C7C2DA2E1EC68B39009FE192 /* LDDTextFieldLeftView.m */,
+			);
+			name = Helper;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C7F07EEF1EBAF9AE0037C60B /* Custom Keyboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7F07F071EBAF9AE0037C60B /* Build configuration list for PBXNativeTarget "Custom Keyboard" */;
+			buildPhases = (
+				C7F07EEC1EBAF9AE0037C60B /* Sources */,
+				C7F07EED1EBAF9AE0037C60B /* Frameworks */,
+				C7F07EEE1EBAF9AE0037C60B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Custom Keyboard";
+			productName = ICBCKeyboard;
+			productReference = C7F07EF01EBAF9AE0037C60B /* Custom Keyboard.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C7F07EE81EBAF9AE0037C60B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = LDD;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Ringo;
+				TargetAttributes = {
+					C7F07EEF1EBAF9AE0037C60B = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = M6ZDLRSM4A;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = C7F07EEB1EBAF9AE0037C60B /* Build configuration list for PBXProject "CustomKeyboard" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C7F07EE71EBAF9AE0037C60B;
+			productRefGroup = C7F07EF11EBAF9AE0037C60B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C7F07EEF1EBAF9AE0037C60B /* Custom Keyboard */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C7F07EEE1EBAF9AE0037C60B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7F07F031EBAF9AE0037C60B /* LaunchScreen.storyboard in Resources */,
+				C7C2D9F91EC54A8B009FE192 /* LDDAlertView.xib in Resources */,
+				C7F07F001EBAF9AE0037C60B /* Assets.xcassets in Resources */,
+				C7F07F0B1EBAFB000037C60B /* Main.storyboard in Resources */,
+				C775B0891EC2DF42000E0B30 /* LDDSheetController.xib in Resources */,
+				C7C2DA231EC5BE13009FE192 /* LDDKeyboardView.xib in Resources */,
+				C7EA91B91EC44C6900005AAF /* LDDHeadView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C7F07EEC1EBAF9AE0037C60B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7F07EFB1EBAF9AE0037C60B /* ViewController.m in Sources */,
+				C7C2D9F41EC549CB009FE192 /* UIView+TYAutoLayout.m in Sources */,
+				C7C2D9EC1EC549CB009FE192 /* TYAlertController.m in Sources */,
+				C7C2D9F71EC54A7F009FE192 /* LDDAlertView.m in Sources */,
+				C7D868E51EC1A78700BADD6D /* LDDSelectPhotoPicker.m in Sources */,
+				C7F07F311EBDF20D0037C60B /* MBProgressHUD.m in Sources */,
+				C7F07EF81EBAF9AE0037C60B /* AppDelegate.m in Sources */,
+				C7C2DA881EC84E4B009FE192 /* TurtleBezierPath.m in Sources */,
+				C7F07F241EBB626A0037C60B /* LDDKeyChain.m in Sources */,
+				C7C2DA581EC7F18E009FE192 /* UIView+Frame.m in Sources */,
+				C7C2DA2F1EC68B39009FE192 /* LDDTextFieldLeftView.m in Sources */,
+				C7D868DF1EC1542700BADD6D /* LDDScanImage.m in Sources */,
+				C7C2D9F21EC549CB009FE192 /* TYShowAlertView.m in Sources */,
+				C775B0881EC2DF42000E0B30 /* LDDSheetController.m in Sources */,
+				C7C2DA211EC5BDF8009FE192 /* LDDKeyboardView.m in Sources */,
+				C7EA91B71EC44C5A00005AAF /* LDDHeadView.m in Sources */,
+				C7C2DA851EC84CCF009FE192 /* CYRKeyboardButtonView.m in Sources */,
+				C7D868E81EC1F63B00BADD6D /* LDDHeadPicture.m in Sources */,
+				C7C2D9ED1EC549CB009FE192 /* TYAlertDropDownAnimation.m in Sources */,
+				C7C2D9F11EC549CB009FE192 /* TYBaseAnimation.m in Sources */,
+				C7C2D9F01EC549CB009FE192 /* TYAlertView.m in Sources */,
+				C7F07F2E1EBDF1640037C60B /* UIView+Toast.m in Sources */,
+				C7F07EF51EBAF9AE0037C60B /* main.m in Sources */,
+				C7C2D9F31EC549CB009FE192 /* UIView+TYAlertView.m in Sources */,
+				C7C2D9EB1EC549CB009FE192 /* TYAlertController+TransitionAnimate.m in Sources */,
+				C7C2DA841EC84CCF009FE192 /* CYRKeyboardButton.m in Sources */,
+				C7C2D9EE1EC549CB009FE192 /* TYAlertFadeAnimation.m in Sources */,
+				C7C2D9EF1EC549CB009FE192 /* TYAlertScaleFadeAnimation.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C7F07F011EBAF9AE0037C60B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C7F07F021EBAF9AE0037C60B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C7F07F051EBAF9AE0037C60B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C7F07F061EBAF9AE0037C60B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C7F07F081EBAF9AE0037C60B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ICBCKeyboard/ICBCKeyboard.entitlements;
+				DEVELOPMENT_TEAM = M6ZDLRSM4A;
+				INFOPLIST_FILE = ICBCKeyboard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Ringo.ICBCKeyboard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C7F07F091EBAF9AE0037C60B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ICBCKeyboard/ICBCKeyboard.entitlements;
+				DEVELOPMENT_TEAM = M6ZDLRSM4A;
+				INFOPLIST_FILE = ICBCKeyboard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Ringo.ICBCKeyboard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C7F07EEB1EBAF9AE0037C60B /* Build configuration list for PBXProject "CustomKeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7F07F051EBAF9AE0037C60B /* Debug */,
+				C7F07F061EBAF9AE0037C60B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C7F07F071EBAF9AE0037C60B /* Build configuration list for PBXNativeTarget "Custom Keyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7F07F081EBAF9AE0037C60B /* Debug */,
+				C7F07F091EBAF9AE0037C60B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C7F07EE81EBAF9AE0037C60B /* Project object */;
+}
