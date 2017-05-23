@@ -26,4 +26,5 @@
  */
 -(UIImage *)imageForKey:(NSString *)key;
 
+
 @end
