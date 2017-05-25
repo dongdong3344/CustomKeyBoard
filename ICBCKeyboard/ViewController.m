@@ -332,7 +332,7 @@ typedef NS_ENUM(NSUInteger,LDDButtonType) {
 //Pwd textField重新成为响应者时，键盘类型默认是char
 -(void)defaultToCharKey{
     
-    [self.keyboardView lowercaseCurrentTitle];
+    [self.keyboardView lowercaseString];
 
     self.keyboardView.leftConstraint.constant=0;
    

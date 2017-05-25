@@ -45,7 +45,7 @@ typedef void(^LDDKeyboardBtnClickBlock)(UIButton*button);
 
 
 
--(void)lowercaseCurrentTitle;
+-(void)lowercaseString;
 
 
 /**通过xib方式加载View*/

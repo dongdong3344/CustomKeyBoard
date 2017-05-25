@@ -83,13 +83,13 @@ typedef NS_ENUM(NSUInteger,LDDButtonType) {
             
         case LDDButtonTypeNumber:
             self.leftConstraint.constant=kScreenW;
-            [self lowercaseCurrentTitle];
+            [self lowercaseString];
             break;
             
         case LDDButtonTypeSign:
             [self generateRandomNumber];
             self.leftConstraint.constant=-kScreenW;
-            [self lowercaseCurrentTitle];
+            [self lowercaseString];
             break;
     }
 }
@@ -129,7 +129,7 @@ typedef NS_ENUM(NSUInteger,LDDButtonType) {
     
 }
 
--(void)lowercaseCurrentTitle{
+-(void)lowercaseString{
     
     UIButton *shiftBtn=(UIButton*)[self.charView viewWithTag:LDDButtonTypeShift];
     //如果shiftBtn是选中状态，则将所有大写字母->小写字母，并将shift按钮状态置为未选中
@@ -164,8 +164,6 @@ typedef NS_ENUM(NSUInteger,LDDButtonType) {
         }];
     }
 }
-
-
 
 //产生任意范围内任意数量的随机数(使用此方法)
 -(NSArray*)randomDataFromLower:(NSInteger)lower
