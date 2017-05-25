@@ -149,7 +149,7 @@ typedef NS_ENUM(NSUInteger,LDDButtonType) {
 //数字键盘产生随机数
 -(void)generateRandomNumber{
     
-    NSArray *randomArr=[self randomDataFromLower:0 toHigher:9 withQuantity:0];
+    NSArray *randomArr=[self randomDataFromLower:0 toHigher:9 withQuantity:10];
     UIButton *charTypeBtn=(UIButton*)[self.accessoryView viewWithTag:LDDButtonTypeChar];
     UIButton *signTypeBtn=(UIButton*)[self.accessoryView viewWithTag:LDDButtonTypeSign];
     
@@ -183,7 +183,7 @@ typedef NS_ENUM(NSUInteger,LDDButtonType) {
             [myRandomNumbers addObject:@(myNumber)];
         }
     }
-    return [myRandomNumbers copy];
+    return [myRandomNumbers copy];//可变数组变成不可变
     
     
 }
