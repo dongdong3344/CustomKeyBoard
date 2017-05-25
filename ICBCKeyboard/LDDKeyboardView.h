@@ -42,6 +42,9 @@ typedef void(^LDDKeyboardBtnClickBlock)(UIButton*button);
 /**字符键盘左边约束*/
 @property (weak, nonatomic) IBOutlet NSLayoutConstraint *leftConstraint;
 
+
+
+
 -(void)lowercaseCurrentTitle;
 
 

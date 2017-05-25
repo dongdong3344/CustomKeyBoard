@@ -43,7 +43,7 @@ typedef NS_ENUM(NSUInteger,LDDButtonType) {
     self.selectedBtn=charTypeBtn;
     
     //2,数字键盘随机数
-    [self loadRandomNumber];
+    [self generateRandomNumber];
     
      UIButton *shiftBtn=(UIButton*)[self.charView viewWithTag:LDDButtonTypeShift];
      shiftBtn.selected=NO;
@@ -78,7 +78,7 @@ typedef NS_ENUM(NSUInteger,LDDButtonType) {
     switch (button.tag) {
         case LDDButtonTypeChar:
             self.leftConstraint.constant=0;//改变char键盘距离父视图左边的约束条件
-            [self loadRandomNumber];//点击数字按钮时更新键盘数字
+            [self generateRandomNumber];//点击数字按钮时更新键盘数字
             break;
             
         case LDDButtonTypeNumber:
@@ -87,7 +87,7 @@ typedef NS_ENUM(NSUInteger,LDDButtonType) {
             break;
             
         case LDDButtonTypeSign:
-            [self loadRandomNumber];
+            [self generateRandomNumber];
             self.leftConstraint.constant=-kScreenW;
             [self lowercaseCurrentTitle];
             break;
@@ -147,9 +147,9 @@ typedef NS_ENUM(NSUInteger,LDDButtonType) {
 }
 
 //数字键盘产生随机数
--(void)loadRandomNumber{
+-(void)generateRandomNumber{
     
-    NSArray *randomArr=[self randomData];
+    NSArray *randomArr=[self randomDataFromLower:0 toHigher:9 withQuantity:0];
     UIButton *charTypeBtn=(UIButton*)[self.accessoryView viewWithTag:LDDButtonTypeChar];
     UIButton *signTypeBtn=(UIButton*)[self.accessoryView viewWithTag:LDDButtonTypeSign];
     
@@ -166,6 +166,29 @@ typedef NS_ENUM(NSUInteger,LDDButtonType) {
 }
 
 
+
+//产生任意范围内任意数量的随机数(使用此方法)
+-(NSArray*)randomDataFromLower:(NSInteger)lower
+                      toHigher:(NSInteger)higher
+                  withQuantity:(NSInteger)quantity{
+    
+    NSMutableArray *myRandomNumbers=[NSMutableArray array];
+    if (!quantity||quantity>(higher-lower)+1) {
+         quantity=(higher-lower)+1;
+        
+    }
+    while (myRandomNumbers.count!=quantity) {
+       NSInteger myNumber=arc4random_uniform((uint32_t)(higher+1-lower))+(uint32_t)lower;
+        if (![myRandomNumbers containsObject: @(myNumber)]) {
+            [myRandomNumbers addObject:@(myNumber)];
+        }
+    }
+    return [myRandomNumbers copy];
+    
+    
+}
+
+//直接产生0-9随机数
 -(NSArray*)randomData{
     NSMutableArray *numberArr=[NSMutableArray arrayWithArray:@[@1,@2,@3,@4,@5,@6,@7,@8,@9,@0]];
     NSInteger numberCount=numberArr.count;
